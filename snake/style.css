@@ -1,0 +1,74 @@
+* {
+    font-family: 'Poor Story', cursive;
+}
+
+html{
+    margin-left: 650px;
+}
+
+#header {
+    margin-left: 170px;
+    margin-bottom: 85px;
+    font-size: xx-large;
+}
+
+#board, .boardInfo {
+    max-width: 500px;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#start, .boardInfo {
+    font-size: 25px;
+}
+
+#gameOver {
+    display: none;
+}
+
+.boardInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#start {
+    background-color: crimson;
+    border: none;
+    color: white;
+}
+
+#scoreBoard {
+    display: inline-flex;
+}
+
+.square {
+    aspect-ratio: 1;
+}
+
+.emptySquare {
+    background-color: rgba(44, 204, 55, 0.86);
+}
+
+.snakeSquare {
+    background-color: rgb(138, 32, 200);
+    border: 1px solid #000;
+}
+
+.foodSquare {
+    background-color: red;
+    border: 1px solid #000;
+}
+
+#datoStarWars {
+    font-size: xx-large;
+    margin-top: 250px;
+}
+
+#posts {
+    font-family: sans-serif;
+    
+}
